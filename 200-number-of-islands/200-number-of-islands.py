@@ -1,4 +1,7 @@
 class Solution:
+    
+# here we had done this problem with the use of dfs first we check whether the current index is having 1 or not. if we have 1 in the current row and column then we will call the dfs function and in the dfs function we will find top,bottom,left,right if we find another one from that we will again call the dfs function.
+
     def dfs(self,grid,r,c):
         grid[r][c] = '0'
         lst = [(r-1,c),(r+1,c),(r,c-1),(r,c+1)]
