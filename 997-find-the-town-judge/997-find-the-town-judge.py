@@ -11,3 +11,4 @@ class Solution:
             if trusted[i] == n-1:
                 return i
         return -1
+            
